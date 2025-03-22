@@ -46,7 +46,7 @@ CureConnect is an innovative telemedicine platform that bridges the gap between 
 - **Route Navigation**: Get step-by-step directions to the hospital of your choice.
 
 ### 6. **Comprehensive Appointment Dashboard**
-![Appointment Dashboard](./assets/appointments.png)
+![Appointment Dashboard](./assets/consult.png)
 ![Appointment Dashboard](./assets/my_appointments.png)
 - **Intuitive Calendar Interface**: Easily schedule, reschedule, or cancel appointments.
 - **Availability Checker**: See real-time availability of healthcare providers for faster appointment scheduling.
