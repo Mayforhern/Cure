@@ -1,0 +1,64 @@
+.hospital-finder {
+    width: 100%;
+    margin: 0 auto;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.button-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin: 20px 0;
+}
+
+.find-button {
+    background: #2563eb;
+    color: white;
+    border: none;
+    padding: 1rem 2.5rem;
+    font-size: 1rem;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: all 0.2s ease;
+    font-weight: 500;
+    box-shadow: 0 2px 4px rgba(37, 99, 235, 0.1);
+    min-width: 200px;
+}
+
+.find-button:hover {
+    background: #1d4ed8;
+    box-shadow: 0 4px 6px rgba(37, 99, 235, 0.2);
+}
+
+.find-button:disabled {
+    background: #93c5fd;
+    cursor: not-allowed;
+}
+
+.error-message {
+    color: #dc2626;
+    margin: 1rem 0;
+    padding: 1rem;
+    background: #fee2e2;
+    border-radius: 6px;
+    border: 1px solid #fecaca;
+    font-size: 0.95rem;
+    width: 100%;
+    max-width: 600px;
+    text-align: center;
+}
+
+.hospitals-container {
+    width: 100%;
+    padding: 20px 0;
+}
+
+.hospitals-grid {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 1.5rem;
+}

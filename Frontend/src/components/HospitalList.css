@@ -1,0 +1,55 @@
+.hospitals-container {
+    margin-top: 2rem;
+}
+
+.hospitals-container h2 {
+    color: #1e3a8a;
+    font-size: 1.8rem;
+    margin-bottom: 1.5rem;
+    font-weight: 600;
+    letter-spacing: -0.5px;
+    text-align: left;
+}
+
+.hospitals-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 1.5rem;
+}
+
+.hospital-card {
+    background: #ffffff;
+    border-radius: 8px;
+    padding: 1.5rem;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+    transition: all 0.2s ease;
+    border: 1px solid #e2e8f0;
+    text-align: left;
+}
+
+.hospital-card:hover {
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+    transform: translateY(-2px);
+}
+
+.hospital-card h3 {
+    color: #1e3a8a;
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+    font-weight: 600;
+    letter-spacing: -0.3px;
+}
+
+.hospital-details {
+    color: #475569;
+    font-size: 0.95rem;
+    line-height: 1.5;
+}
+
+.coordinates {
+    margin-top: 1rem;
+    font-size: 0.875rem;
+    color: #64748b;
+    padding-top: 1rem;
+    border-top: 1px solid #e2e8f0;
+}

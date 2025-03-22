@@ -1,0 +1,23 @@
+.location-display {
+    width: 100%;
+    margin: 2rem 0;
+    padding: 1.5rem;
+    background: #f8fafc;
+    border-radius: 8px;
+    border: 1px solid #e2e8f0;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+.location-display h2 {
+    color: #1e3a8a;
+    margin-bottom: 0.75rem;
+    font-size: 1.5rem;
+    font-weight: 600;
+    letter-spacing: -0.5px;
+}
+
+.location-display p {
+    color: #475569;
+    font-size: 1.1rem;
+    line-height: 1.5;
+}
